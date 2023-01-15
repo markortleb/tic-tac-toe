@@ -1,0 +1,229 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8C1C8;
+}
+
+.game-area {
+    height: 50%;
+    width: 50%;
+    background-color: #3B5998;
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+
+.splash-grid {
+    grid-template-rows: 1fr;
+}
+
+.game-grid {
+    grid-template-rows: 1fr 1fr 6fr 1fr;
+}
+
+.result-grid {
+    grid-template-rows: 1fr 8fr;
+}
+
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.splash-screen h1 {
+    font-size: 4em;
+}
+
+.splash-screen button {
+    padding: 1em;
+    background-color: #bada55;
+    font-size: 1.3em;
+}
+
+.name-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.name-screen h2 {
+    font-size: 2em;
+}
+
+.name-screen button {
+    padding: 1em;
+    background-color: #bada55;
+    font-size: 1.3em;
+}
+
+.title-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-area h1 {
+    font-size: 3em;
+}
+
+.score-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.score-area .score:first-of-type {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+.score-area .score:last-of-type {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 0.7em;
+    letter-spacing: 0.1em;
+}
+
+
+.game-ctr {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    background-color: #ffffff;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.board tbody {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.board tr {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.board td {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board td span {
+    font-size: 4em;
+}
+
+.control-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.control-area button {
+    width: 10em;
+    padding: 1em;
+}
+
+.control-area button:first-of-type {
+    background-color: yellow;
+}
+
+.control-area button:last-of-type {
+    background-color: red;
+}
+
+.result-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.result-area h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.result-area h2 {
+    font-size: 2em;
+    /*padding-bottom: 0.5em;*/
+}
+
+.result-area ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10em;
+}
+
+.result-area ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.result-area h3 {
+    font-size: 1.5em;
+    color: coral;
+}
+
+.result-area .result-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.result-area .result-buttons button {
+    width: 8em;
+    height: 4em;
+    font-size: 1.2em;
+}
+
+.result-area .result-buttons button:first-of-type {
+    background-color: #bada55;
+}
+
+.result-area .result-buttons button:last-of-type {
+    background-color: #da5555;
+}
+
+.round-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.round-end h2 {
+    font-size: 3em;
+}
+
+.round-end span {
+    font-size: 1.4em;
+}
