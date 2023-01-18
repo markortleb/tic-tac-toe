@@ -9,4 +9,5 @@ Play the game here: https://markortleb.github.io/tic-tac-toe/
 
 ### Disclaimer
 
-This game is buggy, and I need to fix a few things to improve the performance.
+This game is a bit buggy. Need to fix a few things to improve the performance
+and computer ai.
