@@ -6,6 +6,12 @@ quest to put 3 X's in a straight line. Good luck!
 
 Play the game here: https://markortleb.github.io/tic-tac-toe/
 
+# How to host
+You can host this by running the following:
+``` bash
+make host
+```
+
 
 ### Disclaimer
 
