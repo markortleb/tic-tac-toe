@@ -4,13 +4,8 @@ Have you been craving excitement, but don't know where to find it? Well
 now you have! In this Tic Tac Toe App, you will face the computer in a 
 quest to put 3 X's in a straight line. Good luck!
 
-Play the game here: https://markortleb.github.io/tic-tac-toe/
+Play the game here: https://tic-tac-toe.markortleb.com
 
-## How to host
-You can host this by running the following:
-``` bash
-make host
-```
 
 
 ### Disclaimer
