@@ -1,0 +1,18 @@
+image:
+  registry: registry.gitlab.com
+  repository: mark4501703/tic-tac-toe
+  tag: latest
+  secret: my-registry-secret
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  host: tic-tac-toe.markortleb.com
+  className: "traefik"
+  tls:
+    enabled: true
+    secretName: markortleb-com-tls
+    clusterIssuer: letsencrypt-prod

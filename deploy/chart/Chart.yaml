@@ -1,0 +1,4 @@
+apiVersion: v2
+name: tic-tac-toe
+description: A Helm chart for deploying the Tic Tac Toe website.
+version: 0.1.0
